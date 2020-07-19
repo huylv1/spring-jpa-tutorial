@@ -1,6 +1,7 @@
 
 drop table if exists User;
 drop table if exists Product;
+DROP SEQUENCE IF EXISTS hibernate_sequence;
 
 create sequence hibernate_sequence start with 1 increment by 1;
 
